@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.section-header{
+    display: flex;
+    justify-content: center;
+    width: 340px;
+    height: 350px;
+    margin-left: 55px;
+    margin-top: 55px;
+}
+
+.btn{
+    display: flex;
+    font-size: 13px;
+    text-align: center;
+    gap: 15px;
+}
+
+.btn-normal{
+    width: 80px;
+    background: #BFDEDE;
+    color: white;
+    padding: 8px;
+}
+
+.btn-normal1{
+    width: 80px;
+    background: #CD1E3D;
+    color: white;
+    padding: 8px;
+}
+
+.btn-normal2{
+    width: 80px;
+    background: #354069;
+    color: white;
+    padding: 8px;
+}
+
+.btn-normal3{
+    width: 80px;
+    background: #1A1A1A;
+    color: white;
+    padding: 8px;
+}
+
+.btn-hover{
+    width: 80px;
+    background: #BFDEDE;
+    color: white;
+    padding: 8px;
+}
+
+.btn-hover1{
+    width: 80px;
+    background: #CD1E3D;
+    color: white;
+    padding: 8px;
+}
+
+.btn-hover2{
+    width: 80px;
+    background: #354069;
+    color: white;
+    padding: 8px;
+}
+
+.btn-hover3{
+    width: 80px;
+    background: #979797;
+    color: white;
+    padding: 8px;
+}
+
+.btn-pressed{
+    width: 80px;
+    background: #BFDEDE;
+    color: white;
+    padding: 8px;
+}
+
+.btn-pressed1{
+    width: 80px;
+    background: #CD1E3D;
+    color: #000000;
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 8px;
+}
+
+.btn-pressed2{
+    width: 80px;
+    background: #354069;
+    color: white;
+    padding: 8px;
+}
+
+.btn-pressed3{
+    width: 80px;
+    background: #1A1A1A;
+    color: white;
+    padding: 8px;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+}
+
+.shild1{
+    
+    width: 300px;
+    height: 20px;
+    border-radius: 30px;
+    background: #DEDEDE;
+}
+
+.shild2{
+    width: 200px;
+    height: 20px;
+    border-radius: 30px;
+    background: #CCCCCC;
+}

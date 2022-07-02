@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    margin: auto;
+    max-width: 420px;
+    min-width: 275px;
+    padding: 16px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 41px;
+}
+
+.add-to-do{
+    margin-top: 39px;
+}
+
+.add-to-do h1{
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+.input-with-clear-btn{
+    position: relative;
+}
+
+.input-with-clear-btn input{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #DEDEDE;
+}
+
+.input-with-clear-btn img{
+   position: absolute;
+   right: 14px;
+   bottom: 14px;
+}
+
+button{
+    background: #39628D;
+    color: white;
+    padding: 8px 16px; 
+    border: none;
+    margin-top: 12px;
+}
+
+.not-finish h1,
+.finish h1{
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 24px;
+}
+
+.list{
+    font-size: 10px;
+}
+
+.not-finish .list label,
+.finish .list label{
+    font-size: 12px;
+    
+}
+
+
+
+.custom-checkbox{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 12px;
+}
+
+.custom-checkbox input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.custom-checkbox .on{
+    display: none;
+}
+.custom-checkbox .off{
+    display: block;
+}
+
+.custom-checkbox input:checked ~ .on {
+    display: block;
+  }
+
+  .custom-checkbox input:checked ~ .off {
+    display: none;
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer h1{
+    font-weight: 400;
+    font-size: 13px;
+    color: #808080;
+  }
